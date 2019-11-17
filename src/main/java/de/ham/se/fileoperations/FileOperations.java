@@ -21,7 +21,8 @@ public class FileOperations {
 		    String fileContent = "This is a sample text.";
 		    fileWriter.write(fileContent);
 		} catch (IOException e) {
-		    System.out.println("Could not write file: " + e.getMessage());
+		    System.out.println("Could not write file");
+		    e.printStackTrace();
 		}
 
 		// read the content from file
@@ -34,7 +35,8 @@ public class FileOperations {
 		} catch (FileNotFoundException e) {
 			System.out.println("File not found: " + e.getMessage());
 		} catch (IOException e) {
-			System.out.println("Could not read from file: " + e.getMessage());
+			System.out.println("Could not read from file: ");
+			e.printStackTrace();
 		}
 	}
 
