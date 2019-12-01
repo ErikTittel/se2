@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>de.ham.se</groupId>
-	<artifactId>fileoperations</artifactId>
+	<artifactId>se2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>File Operations</name>
-	<description>This project shows some ways to read from and write to files.</description>
+	<name>SE 2</name>
+	<description>This project contains code for the advanced topics of the course Softwareentwicklung.</description>
 
 	<properties>
 		<maven.compiler.release>13</maven.compiler.release>
