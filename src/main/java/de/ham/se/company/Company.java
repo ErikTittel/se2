@@ -13,6 +13,9 @@ public class Company {
 
 	private List<Employee> employees;
 
+	/**
+	 * see https://www.mkyong.com/java/how-to-read-and-parse-csv-file-in-java/ 
+	 */
 	public void loadData() throws URISyntaxException {
 		
 		employees = new ArrayList<>();
